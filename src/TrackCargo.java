@@ -99,7 +99,7 @@ public class TrackCargo {
                     }
                     Thread.sleep(1000);
                 }
-
+//
                 driver.findElement(By.linkText("Дополнительная информация")).click();
                 driver.findElement(By.xpath("//input[@type='tel']")).clear();
                 driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("79646410678");
